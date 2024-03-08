@@ -1,0 +1,33 @@
+.todo-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f5f9;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.todo-item-text {
+    display: flex;
+    gap: 15px;
+}
+.todo-item-button {
+    display: flex;
+    gap: 15px;
+}
+
+.todo-item-button button {
+    padding: 5px;
+}
+
+.todo-item-button svg {
+    width: 20px;
+    height: 20px;
+}
+.pencil-button {
+    color: #0ea5e9;
+    
+}
+.trash-button {
+    color: #f43f5e;
+}
